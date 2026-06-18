@@ -1,0 +1,46 @@
+== Info: Host google.com:80 was resolved.
+== Info: IPv6: 2800:3f0:4004:816::200e
+== Info: IPv4: 142.250.78.174
+== Info:   Trying [2800:3f0:4004:816::200e]:80...
+== Info: Connected to google.com (2800:3f0:4004:816::200e) port 80
+=> Send header, 73 bytes (0x49)
+0000: GET / HTTP/1.1
+0010: Host: google.com
+0022: User-Agent: curl/8.7.1
+003a: Accept: */*
+0047: 
+== Info: Request completely sent off
+<= Recv header, 32 bytes (0x20)
+0000: HTTP/1.1 301 Moved Permanently
+<= Recv header, 34 bytes (0x22)
+0000: Location: http://www.google.com/
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=UTF-8
+<= Recv header, 245 bytes (0xf5)
+0000: Content-Security-Policy-Report-Only: object-src 'none';base-uri 
+0040: 'self';script-src 'nonce-I4ixN384_tQ9iERlN947Tw' 'strict-dynamic
+0080: ' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;rep
+00c0: ort-uri https://csp.withgoogle.com/csp/gws/other-hp
+<= Recv header, 37 bytes (0x25)
+0000: Date: Thu, 18 Jun 2026 01:58:07 GMT
+<= Recv header, 40 bytes (0x28)
+0000: Expires: Sat, 18 Jul 2026 01:58:07 GMT
+<= Recv header, 40 bytes (0x28)
+0000: Cache-Control: public, max-age=2592000
+<= Recv header, 13 bytes (0xd)
+0000: Server: gws
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 219
+<= Recv header, 21 bytes (0x15)
+0000: X-XSS-Protection: 0
+<= Recv header, 29 bytes (0x1d)
+0000: X-Frame-Options: SAMEORIGIN
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 219 bytes (0xdb)
+0000: <HTML><HEAD><meta http-equiv="content-type" content="text/html;c
+0040: harset=utf-8">.<TITLE>301 Moved</TITLE></HEAD><BODY>.<H1>301 Mov
+0080: ed</H1>.The document has moved.<A HREF="http://www.google.com/">
+00c0: here</A>.
+00cb: </BODY></HTML>
+== Info: Connection #0 to host google.com left intact
