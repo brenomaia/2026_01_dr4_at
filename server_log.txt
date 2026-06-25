@@ -1,0 +1,7 @@
+[2026-06-25 20:11:48] IP: 127.0.0.1 | Método: GET | Endpoint: /home.html | Status: 200
+[2026-06-25 20:11:56] IP: 127.0.0.1 | Método: GET | Endpoint: /contato.html | Status: 200
+[2026-06-25 20:12:03] IP: 127.0.0.1 | Método: GET | Endpoint: /contato.html | Status: 200
+[2026-06-25 20:12:28] IP: 127.0.0.1 | Método: GET | Endpoint: /inexistente.html | Status: 404
+[2026-06-25 20:12:30] IP: 127.0.0.1 | Método: GET | Endpoint: /inexistente.html | Status: 404
+[2026-06-25 20:12:32] IP: 127.0.0.1 | Método: GET | Endpoint: /inexistente.html | Status: 404
+[2026-06-25 20:12:38] IP: 127.0.0.1 | Método: GET | Endpoint: /inexistente.html | Status: 404

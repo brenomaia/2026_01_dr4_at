@@ -1,8 +1,8 @@
 == Info: Host google.com:80 was resolved.
-== Info: IPv6: 2800:3f0:4004:816::200e
-== Info: IPv4: 142.250.78.174
-== Info:   Trying [2800:3f0:4004:816::200e]:80...
-== Info: Connected to google.com (2800:3f0:4004:816::200e) port 80
+== Info: IPv6: 2800:3f0:4004:80f::200e
+== Info: IPv4: 172.217.172.14
+== Info:   Trying [2800:3f0:4004:80f::200e]:80...
+== Info: Connected to google.com (2800:3f0:4004:80f::200e) port 80
 => Send header, 73 bytes (0x49)
 0000: GET / HTTP/1.1
 0010: Host: google.com
@@ -18,13 +18,13 @@
 0000: Content-Type: text/html; charset=UTF-8
 <= Recv header, 245 bytes (0xf5)
 0000: Content-Security-Policy-Report-Only: object-src 'none';base-uri 
-0040: 'self';script-src 'nonce-I4ixN384_tQ9iERlN947Tw' 'strict-dynamic
+0040: 'self';script-src 'nonce-e4jRSomGQFs-GmxQPLCMXA' 'strict-dynamic
 0080: ' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;rep
 00c0: ort-uri https://csp.withgoogle.com/csp/gws/other-hp
 <= Recv header, 37 bytes (0x25)
-0000: Date: Thu, 18 Jun 2026 01:58:07 GMT
+0000: Date: Thu, 18 Jun 2026 21:41:59 GMT
 <= Recv header, 40 bytes (0x28)
-0000: Expires: Sat, 18 Jul 2026 01:58:07 GMT
+0000: Expires: Sat, 18 Jul 2026 21:41:59 GMT
 <= Recv header, 40 bytes (0x28)
 0000: Cache-Control: public, max-age=2592000
 <= Recv header, 13 bytes (0xd)
