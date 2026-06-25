@@ -1,5 +1,4 @@
 import nmap
-# import json
 
 def local_sweep():
     nm = nmap.PortScanner()
@@ -14,13 +13,11 @@ def local_sweep():
         print(f"Erro ao executar o Nmap: {e}")
         return
 
-    # Processa os resultados
     for host in nm.all_hosts():
         print(f"Host: {host} ({nm[host].hostname()})")
         print(f"Estado do Host: {nm[host].state()}")
         print("-" * 40)
         
-        # Percorre todos os protocolos encontrados (ex: tcp)
         for proto in nm[host].all_protocols():
             print(f"Protocolo: {proto.upper()}")
             

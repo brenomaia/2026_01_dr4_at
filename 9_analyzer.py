@@ -18,7 +18,6 @@ def analyze_log_file():
         with open(LOG_FILE, 'r', encoding='utf-8') as f:
             linhas = f.readlines()
     except FileNotFoundError:
-        # Se o arquivo não existe ainda, não há o que analisar
         return
 
     error_history.clear()
